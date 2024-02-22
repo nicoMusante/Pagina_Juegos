@@ -1,0 +1,133 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 10px;
+}
+
+#logo {
+  width: 7%;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+#botonAgregar{
+  color: #fff;
+  background-color: #333;
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+#contenedorAgregar{
+  display: flex;
+  justify-content: end;
+}
+
+#botonAgregar a{
+  color:#fff;       
+  text-decoration: none;
+}
+
+
+button:hover {
+  background-color: #666;
+}
+
+#listaJuegos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.elemJuego {
+  margin: 30px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5%;
+}
+
+.elemJuego:hover {
+  transform: translateY(-5px);
+}
+
+.elemImage {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5%;
+}
+
+.descripcion, .plataforma, .genero, .url {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el formulario de filtro */
+#Filtro-juego {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 200px;
+}
+
+#botonFiltrar{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#botonFiltrar:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  margin-top: auto; 
+}
