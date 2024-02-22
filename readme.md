@@ -1,4 +1,5 @@
 <img src="images/LowNic_Juegos.webp" alt="LowNic Juegos" width="800"/>
+
 # LowNic Juegos
 
 Bienvenido a **LowNic Juegos**, tu destino para explorar una amplia variedad de juegos. Desde emocionantes aventuras hasta desafiantes rompecabezas, nuestra plataforma tiene algo para todos los amantes de los juegos. Aquí te proporcionamos una guía rápida sobre el funcionamiento de nuestra página y cómo puedes ponerla en marcha en tu entorno local.
